@@ -19,6 +19,13 @@ try {
 	console.log("Connection error : " + e);
 }
 
+// GET
+router.get('/', (req, res, next) => {
+	res.status(200).json({
+		message: 'Handling GET requests'
+	});
+});
+
 // POST
 router.post('/', async function (req, res) {
 	// get the body of the request
