@@ -1,6 +1,6 @@
 const request = require('request-promise'); // request with Promise support
 const bodyJSON = '{"startDate": "2016-01-01","endDate": "2020-06-28","minCount": 150,"maxCount": 170}';
-const apiUrl = "http://localhost:3004/getdata";
+const apiUrl = "/getdata"; // http://localhost:3004
 
 /* this test verify the functionality of API that returns the filtered data from getir-case-study DB */
 describe("verifyData()", () => {
