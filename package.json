@@ -4,7 +4,7 @@
   "description": "NodeJS Getir App",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongodb": "^3.5.9",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
